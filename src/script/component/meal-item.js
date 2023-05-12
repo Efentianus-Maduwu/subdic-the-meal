@@ -38,7 +38,13 @@ class MealItem extends HTMLElement {
         }
           
         .meal-info > h2 {
+            font-weight: bold;
+            font-size: 30px;
+            text-align: center;
+        }
+        .meal-info > h3 {
             font-weight: lighter;
+            
         }
           
         .meal-info > p {
@@ -55,7 +61,8 @@ class MealItem extends HTMLElement {
         <img class="meal-thumb" src="${this._meal.strMealThumb}" alt="Meal">
         <div class="meal-info">
             <h2>${this._meal.strMeal}</h2>
-            <p>${this._meal.strInstructions}</p>
+            <p>INTRUCTIONS : ${this._meal.strInstructions}</p>
+            <p><h3>watch on Youtube:</h3>${this._meal.strYoutube}</p>
         </div>`;
     }
 }

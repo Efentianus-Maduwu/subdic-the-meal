@@ -50,8 +50,9 @@ class SearchBar extends HTMLElement {
           }
           
           .search-container > input::placeholder {
-            color: cornflowerblue;
+            color: black;
             font-weight: normal;
+            font-family: cursive;
           }
           
           .search-container > button {
@@ -59,12 +60,13 @@ class SearchBar extends HTMLElement {
             cursor: pointer;
             margin-left: auto;
             padding: 16px;
-            background-color: cornflowerblue;
+            border-radius: 10px;
+            background-color: #4C4C6D;
+            font-family: cursive;
             color: white;
             border: 0;
             text-transform: uppercase;
-          }
-          
+          },
           @media screen and (max-width: 550px) {
             .search-container {
               flex-direction: column;

@@ -19,12 +19,14 @@ class AppBar extends HTMLElement {
             :host {
                 display: block;
                 width: 100%;
-                background-color: cornflowerblue;
+                background-color: rgb(206, 207, 207);
                 color: white;
+                
                 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
             }
             h2 {
                 padding : 16px;
+                font-family: lobster, cursive;
             }
         </style>
 
